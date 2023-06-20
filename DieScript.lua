@@ -13,6 +13,8 @@ Notification:Notify(
     {OutlineColor = Color3.fromRGB(0,0,255),Time = 5, Type = "Option"},
     {Image = "http://www.roblox.com/asset/?id=8564501873", ImageColor = Color3.fromRGB(255, 84, 84), Callback = function(State) 
 
+wait(1)
+
 local player = game.Players.LocalPlayer
 
 function ResetPlayer()
